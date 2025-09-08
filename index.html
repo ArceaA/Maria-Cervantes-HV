@@ -249,6 +249,78 @@
             font-weight: 600;
             font-size: 12px
         }
+        /* Ajustes para tablets */
+@media (max-width: 600px) {
+    .headline {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .avatar {
+        width: 90px;
+        height: 90px;
+    }
+
+    .name h1 {
+        font-size: 18px;
+    }
+
+    .name p {
+        font-size: 13px;
+    }
+
+    .section-title {
+        font-size: 14px;
+    }
+
+    .contact-list li {
+        font-size: 13px;
+    }
+}
+
+/* Ajustes para móviles pequeños */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .card {
+        border-radius: 10px;
+    }
+
+    .sidebar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .avatar {
+        width: 75px;
+        height: 75px;
+    }
+
+    .headline h2 {
+        font-size: 16px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .item h3 {
+        font-size: 14px;
+    }
+
+    .item .when {
+        font-size: 12px;
+    }
+
+    .chip {
+        font-size: 11px;
+        padding: 4px 8px;
+    }
+}
     </style>
 </head>
 
@@ -589,3 +661,4 @@
 </body>
 
 </html>
+
